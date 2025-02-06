@@ -127,7 +127,7 @@ int main() {
     printf("*******SUPER PODER %.2lf\n", (double)superpoder1);
 
 
-    printf("\n>>> CARTA2 <<<\n");
+    printf("\n>>> CARTA 2 <<<\n");
     printf("COD: %s\n", codigocarta2);
     printf("Cidade: %s\n", cidade2);
     printf("Estado: %s\n", estado2);
@@ -155,39 +155,39 @@ int main() {
     printf("\n");
 
     if (populacao1 > populacao2) {
-    printf(">> POPULAÇÃO << A cidade vencedora é: %s\n", cidade1);
+    printf(">> POPULAÇÃO A cidade vencedora é: %s\n", cidade1);
     } else {
-    printf(">> POPULAÇÃO << A cidade vencedora é: %s\n", cidade2);
+    printf(">> POPULAÇÃO A cidade vencedora é: %s\n", cidade2);
     }
 
     if (area1 > area2) {
-    printf(">>> AREA <<< A cidade vencedora é: %s\n", cidade1);
+    printf(">>> AREA A cidade vencedora é: %s\n", cidade1);
     } else {
-    printf(">>> AREA <<< A cidade vencedora é: %s\n", cidade2);
+    printf(">>> AREA A cidade vencedora é: %s\n", cidade2);
     }
 
     if (PIB1 > PIB2) {
-    printf(">>>> PIB <<<< A cidade vencedora é: %s\n", cidade1);
+    printf(">>>> PIB A cidade vencedora é: %s\n", cidade1);
     } else {
-    printf(">>>> PIB <<<< A cidade vencedora é: %s\n", cidade2);
+    printf(">>>> PIB A cidade vencedora é: %s\n", cidade2);
     }
 
     if (numerodepontosturisticos1 > numerodepontosturisticos2) {
-    printf(">>>> PONTOS TURÍSTICOS <<<<< A cidade vencedora é: %s\n", cidade1);
+    printf(">>>>> PONTOS TURÍSTICOS A cidade vencedora é: %s\n", cidade1);
     } else {
-    printf(">>>> PONTOS TURÍSTICOS <<<<< A cidade vencedora é: %s\n", cidade2);
+    printf(">>>>> PONTOS TURÍSTICOS A cidade vencedora é: %s\n", cidade2);
     }
 
     if (densidadepopulacional1 < densidadepopulacional2) {
-    printf(">>>>> DENSIDADE POPULACIONAL <<<<<< A cidade vencedora é: %s\n", cidade1);
+    printf(">>>>>> DENSIDADE POPULACIONAL A cidade vencedora é: %s\n", cidade1);
     } else {
-    printf(">>>>> DENSIDADE POPULACIONAL <<<<<< A cidade vencedora é: %s\n", cidade2);
+    printf(">>>>>> DENSIDADE POPULACIONAL A cidade vencedora é: %s\n", cidade2);
     }
 
     if (superpoder1 > superpoder2) {
-    printf(">>>>>> SUPER PODER <<<<<<< A cidade vencedora é: %s\n", cidade1);
+    printf(">>>>>>> SUPER PODER A cidade vencedora é: %s\n", cidade1);
     } else {
-    printf(">>>>>> SUPER PODER <<<<<<< A cidade vencedora é: %s\n", cidade2);
+    printf(">>>>>>> SUPER PODER A cidade vencedora é: %s\n", cidade2);
     }
 
     
